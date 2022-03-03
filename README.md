@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Labefy 🎧🥁
+Projeto em React, simulando plataforma de Streaming de músicas, consumindo a API do Spotify.
+## Funcionalidades
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ - Criar, editar, visualizar e excluir playlists;
+ - Acessar músicas através da playlist;
+ - Inserir e excluir músicas da playlist;
 
-## Available Scripts
+## Stack utilizada
 
-In the project directory, you can run:
+**Front-end:** React, js, styled-components
 
-### `npm start`
+- Requisições de API (GET, PUT, POST)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Estilização com styled-components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Telas dinâmicas
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalação
 
-### `npm run build`
+ - No seu terminal faça o clone deste repositório com o comando `git clone https://github.com/karlanatany/labefy.git`
+ - Abra o projeto no editor de sua preferência
+ - Abra o terminal no editor e rode o comando `npm install` para serem instaladas as dependências utilizadas no projeto 
+ - Após dê o comando `npm start` para a aplicação abrir no seu navegador
+## Visualização 🧐
+**Tela Inicial:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![tela com a lista de playlists](https://awesomescreenshot.s3.amazonaws.com/image/2937563/23406085-11ba1c905cacd2a13ea397e4cb6e26a3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA/20220303/us-east-1/s3/aws4_request&X-Amz-Date=20220303T180418Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=7165dbf6e7563df8fe65117dc7cdccc168de74279eac4cfac547b82ce27881df)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Detalhes da playlist:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![tela com detalhes da playlist](https://awesomescreenshot.s3.amazonaws.com/image/2937563/23406222-0e063f8d04e52fce21cafef9b2d6550d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA/20220303/us-east-1/s3/aws4_request&X-Amz-Date=20220303T180612Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=9c17cc40b702c64db9d05cb1999961c7f38342743ccc32f888c511b1a31a8db8)
 
-### `npm run eject`
+**Busca de músicas:**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![tela com busca de músicas](https://awesomescreenshot.s3.amazonaws.com/image/2937563/23406275-02111ddf038b6b85f3977f28f867e35c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA/20220303/us-east-1/s3/aws4_request&X-Amz-Date=20220303T180652Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=066adbfa9927a7da3e600ab8d35e79cc528d7aa9885e777b6b3f18c4f0ba83ad)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👓  [VISUALIZAR APLICAÇÃO WEB](https://ancient-carriage.surge.sh/)
